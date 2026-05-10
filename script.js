@@ -60,7 +60,7 @@ function playRound(humanChoice) {
 
     let computerChoice = getComputerChoice();
 
-    if (round <= 5) {
+    if (round < 5) {
         messageDiv.textContent = "";
         btnContainer.style.display = "block";
         messageDiv.textContent = "Choose rock, paper, or scissors."
